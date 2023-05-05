@@ -1,0 +1,371 @@
+* {box-sizing: border-box;}
+
+body {font-family: roboto, sans-serif;
+		margin: 0;
+		padding: 0;
+		color: #707070;}
+		
+header {background-color: #d0d8db;
+	background-image: url("testsmmbednavcopy.png");
+	background-repeat: no-repeat;
+	height: 200px;}	
+	
+.smKAlogo img {float: left;
+	box-shadow: none;
+	padding-left: 10px;
+	width: 110px;}
+	
+
+.topnav {list-style-type: none;
+	text-align: right;
+	margin:0;
+	padding-top: 30px;
+	text-decoration: none;}
+	
+.topnav  a {display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	padding: 20px;
+	text-decoration: none;
+	color: #327799;}
+
+.topnav  li {display: inline-block;
+	font-size: .8em;
+	text-transform: uppercase;
+	padding-right: 30px;}
+
+.topnav  a:hover {color: #494a49;
+	cursor: pointer;
+	transition: 0.1s;
+	text-decoration: none;}
+	
+.wrapper {max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;}	
+	
+.toph1 {text-align: center;
+	font-size: 1.5em;
+	color: #ffffff;
+	background-color: #aae2f2;
+	opacity: .8;
+	height: 84px;
+	padding-bottom: 5px;}
+	
+.toph1 h1 {padding-top: 15px;
+			font-family: 'Montserrat', sans-serif;}	
+			
+#heroimage {background-image: url("massagebedcopy.png");
+			background-repeat: no-repeat;
+			width: auto;
+			height: 450px;} 
+							
+#herocontent1 {width: 250px;
+	padding-left: 25px;
+	padding-top: 165px;
+	font-size: .8em;}
+	
+#herocontent1 h2 {text-align: left;
+	padding-top= 20px;
+	color: #ffffff;}	
+	
+#herocontent1 p {text-align: left;
+	padding-top= 20px;
+	padding-left= 20px;
+	color: #ffffff;}	
+
+#herocontent2 {width: 600px;
+	font-size: 1.2em;
+	margin-left: auto;
+	margin-right: auto;}
+	
+#herocontent2 h2 {text-align: center;
+	padding-top: 50px;
+	color: #327799;}	
+	
+#herocontent2 p {text-align: left;
+	margin-left: auto;
+	margin-right: auto;}	
+	
+#bubbles {background-image: url("bubbles.png");
+		background-repeat: no-repeat;
+		height: 400px;
+		width: 100%vw;}
+
+#bubblescontent {width: 100%;
+	text-align: center;
+	font-size: 1.4em;
+	padding-top: 130px;
+	color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;}
+	
+footer {background-color: #d0d8db;
+	background-image: url("testsmmbednavcopy.png");
+	background-repeat: no-repeat;
+	height: 120px;}	
+	
+.KAlogo img {float: left;
+	box-shadow: none;
+	padding-left: 30px;
+	padding-top: 20px;
+	width: 110px;}
+	
+.botnav {list-style-type: none;
+	text-align: right;
+	margin: 0;
+	padding-top: 30px;
+	text-decoration: none;}
+	
+.botnav  a {display: inline-block;
+	padding-top: 30px;
+	padding: 20px;
+	text-decoration: none;
+	color: #327799;}
+
+.botnav  li {display: inline-block;
+	font-size: .8em;
+	text-transform: uppercase;
+	padding-right: 30px;}
+
+.botnav  a:hover {color: #494a49;
+	cursor: pointer;
+	transition: 0.1s;
+	text-decoration: none;}
+	
+/* About page */ 	
+
+#kevcollage {background-image: url("reskevcollage.png");
+			background-repeat: no-repeat;
+			width: auto;
+			height: 250px;
+			margin-left: auto;
+			margin-right: auto;}
+			
+#aboutme {min-width: 600px;
+	font-size: 1.2em;
+	margin-left: 270px;
+	margin-top: 70px;}
+
+#aboutme h2 {text-align: center;
+	color: #327799;
+	margin-left: 10px;
+	margin-top: 50px;}
+	
+#aboutme p {text-align: left;
+padding-left: 100px;}	
+
+#aboutme2 p {text-align: left;
+background-color: #327799;
+color: #ffffff;
+min-height: 200px;
+padding: 20px;}
+
+#reviews h3 {margin-top: 50px;
+text-align: center;
+	color: #327799;}
+
+#reviewwrapper{max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;}
+
+#reviews p {text-align: left;}	
+
+/* Services page */
+	
+
+.responsive {padding: 20px 15px;
+	float: left;
+	width: 33.3333%;}	
+	
+.gallery {border: 1px solid #ccc;
+		padding: 10px;}
+ 	
+.gallery:hover {border: 1px solid #777;}
+ 
+.gallery img {width: 100%;
+		height: auto;
+		padding-bottom: 20px;
+		margin: 0;} 	
+ 	
+.desc {padding: 10px, 20px;
+	margin-bottom: 30px;
+	text-align: center;
+	color: #1d496e;}
+
+.svsbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 100px;
+  border: none;
+  background-color: #21b2bf;
+  font-size: 1em;}	
+	
+
+.svsbutton a {text-decoration: none;
+			color: #ffffff;
+			cursor: pointer;}
+	
+	
+@media only screen and (max-width: 700px) {
+				.responsive {width: 49.99999%;
+				margin: 6px 0;}
+}
+
+@media only screen and (max-width: 500px) {
+				.responsive {width: 100%;}
+}
+
+.clearfix:after {content:"";
+				display: table;
+				clear: both;}
+	
+	/* Contact page */
+
+
+#contactpic {background-image: url("massage2copy.png");
+			background-repeat: no-repeat;
+			min-width: 100%vw;
+			opacity: .4;
+			height: 350px;} 
+
+#contactpiccontent {padding-top: 280px;
+		padding-left: 90px;
+		font-size: 1.2em;}
+		
+#contactpiccontent p {color: #1d496e;}	
+
+#cicontent {width: 35%;
+  			float: left;
+  			padding-right: 15px;
+  			background-color:#e8f4fa;
+  			
+  			height: 625px;}
+  
+#cicontent h3 {padding-top: 50px;
+			padding-left: 100px;
+			color:#1d496e;}
+  
+#cicontent p {padding-left: 100px;} 
+
+#cicontent2 {width: 55%;
+  			float: left;
+  			padding-right: 15px;}
+  
+#cicontent2 h3 {padding-top: 35px;
+			padding-left: 100px;
+			color:#1d496e;
+			text-align: center;}
+			
+#cicontent2 button {width: 120px;
+text-align: center;
+height: 30px;
+margin-left: 10px;}		
+
+#cicontent2 a {text-decoration: none;
+color: #707070;}	
+  
+span {padding-left: 10px;} 
+
+form {display: flex;
+       flex-direction: column;
+	   width: 80%;
+	   max-width: 40em;
+	   padding-left: 190px;}
+	   
+form label {color:#1d496e;}
+
+textarea {margin-left: 10px;}	   
+	   
+input, textbox {margin-bottom: 2em;
+			margin-left: 10px;
+			background-color:#e8f4fa;
+			border: none;
+			height: 30px;
+			padding-left: 5px;}
+
+input[type="Send Message"] {color:#1d496e;
+							text-align: center;}
+
+
+
+#cbutton {width: 120px;
+text-align: center;
+height: 30px;
+margin-left: 10px;
+background-color: #e8f4fa;
+font-size: 1em;
+padding-top: 6px;
+font-weight: strong;
+margin-bottom: 20px;}	
+	
+#cbutton a {
+text-decoration: none;
+color: #707070;}	
+
+
+#bncontent {width: 25%;
+  			float: left;
+  			padding-right: 15px;
+  			background-color:#e8f4fa;
+  			height: 720px;
+  			background-image: url("newbubs.png");}
+  
+#bncontent h3 {padding-top: 30px;;
+			color:#1d496e;
+			text-align: left;
+			padding-left: 60px;}  
+			
+#bncontent2 {padding-top: 40px;
+			width: 50%;
+  			float: left;
+  			padding-right: 15px;
+  			background-image: url("bnmassage.png");
+  			background-repeat: no-repeat;
+  			height: 720px;
+  			text-align: center;}
+  
+#bncontent2 label {padding-top: 30px;
+			padding-bottom: 10px;
+			color:#ffffff;
+			text-align: left;
+			font-weight: bold;}  
+
+#bncontent2 textarea {float: left;
+padding-left: 10px;
+padding-top: 5px;
+margin-bottom: 10px;}
+			
+#button {text-align: center;
+	width: 90px;
+	background-color: #ff0000;
+	height:30px;
+	margin-left: 10px;
+	font-size: 1em;}
+		
+#bncontent2 a {padding-top: 6px;
+				text-decoration: none;
+				color: #ffffff;}	
+
+		
+#bncontent3 {width: 25%;
+  			float: left;
+  			background-color:#e8f4fa;
+  			height: 720px;
+  			background-image: url("newbubs.png");}
+  			
+.clearfix2:after {content:"";
+	display: table;
+	clear: both;}
+	
+.clearfix3:after {content:"";
+	display: table;
+	clear: both;}
+  			
+
+
+
+
+
+	
