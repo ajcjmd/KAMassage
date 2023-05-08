@@ -100,19 +100,6 @@ header {background-color: #d0d8db;
 	color: #ffffff;
 	margin: auto;}
 	
-@media only screen and (max-width: 700px) {
-				.toph1 {width: 49.99999%;
-				margin: 6px 0;}
-}
-
-@media only screen and (max-width: 500px) {
-				.toph1 {width: 100%;}
-				
-.clearfix:after {content:"";
-				display: table;
-				clear: both;}				
-	
-	
 footer {background-color: #d0d8db;
 	background-image: url("testsmmbednavcopy.png");
 	background-repeat: no-repeat;
