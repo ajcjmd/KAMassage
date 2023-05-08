@@ -8,8 +8,8 @@ body {font-family: roboto, sans-serif;
 header {background-color: #d0d8db;
 	background-image: url("testsmmbednavcopy.png");
 	background-repeat: no-repeat;
-	height: 200px;
-	margin: auto;}	
+	min-height: 200px;
+	margin: 0;}	
 	
 .smKAlogo img {float: left;
 	box-shadow: none;
@@ -84,19 +84,17 @@ header {background-color: #d0d8db;
 	color: #327799;}	
 	
 #herocontent2 p {text-align: left;
-	margin-left: auto;
-	margin-right: auto;}	
+	margin auto;}	
 	
 #bubbles {background-image: url("bubbles.png");
 		background-repeat: no-repeat;
 		min-height: 400px;
-		max-width: 100%;
-		margin: auto;}
+		margin: 0 auto;}
 
-#bubblescontent {max-width: 100%;
+#bubblescontent {
 	text-align: center;
 	font-size: 1.4em;
-	padding-top: 130px;
+	padding-top: 100px;
 	color: #ffffff;
 	margin: auto;}
 	
@@ -170,22 +168,21 @@ text-align: center;
 	color: #327799;}
 
 #reviewwrapper{max-width: 80%;
-	margin-left: auto;
-	margin-right: auto;}
+	margin: auto;}
 
 #reviews p {text-align: left;}	
 
 /* Services page */
 	
 
-.responsive {padding: 20px 15px;
+.responsive {padding: 15px 15px;
 	float: left;
 	width: 33.3333%;}	
 	
-.gallery {border: 1px solid #ccc;
-		padding: 10px;}
+.gallery {border: non;
+		padding: 10px;
+		margin; auto;}
  	
-.gallery:hover {border: 1px solid #777;}
  
 .gallery img {width: 100%;
 		height: auto;
@@ -206,7 +203,7 @@ text-align: center;
   border: none;
   background-color: #21b2bf;
   font-size: 1em;
-  margin: 0;}	
+  margin: auto;}	
 	
 
 .svsbutton a {text-decoration: none;
@@ -244,7 +241,7 @@ text-align: center;
   			float: left;
   			padding-right: 15px;
   			background-color:#e8f4fa;
-  			min-height: 625px;
+  			min-height: 627px;
   			margin: auto;}
   
 #cicontent h3 {padding-top: 50px;
@@ -320,7 +317,8 @@ color: #707070;}
   			padding-right: 15px;
   			background-color:#e8f4fa;
   			height: 720px;
-  			background-image: url("newbubs.png");}
+  			background-image: url("newbubs.png");
+  			margin: auto;}
   
 #bncontent h3 {padding-top: 30px;;
 			color:#1d496e;
@@ -351,13 +349,13 @@ padding-top: 5px;
 padding-bottom: 40px;
 margin-bottom: 10px;
 max-width: 100%;}
-			
-#button {text-align: center;
+	
+		
+#button {
 	background-color:  #e8f4fa;
 	height:30px;
 	font-size: 1em;
-	width: 120px;
-	margin: auto;}
+	width: 120px;} 
 	
 
 #bncontent2 a {padding-top: 6px;
