@@ -8,7 +8,8 @@ body {font-family: roboto, sans-serif;
 header {background-color: #d0d8db;
 	background-image: url("testsmmbednavcopy.png");
 	background-repeat: no-repeat;
-	height: 200px;}	
+	height: 200px;
+	margin: auto;}	
 	
 .smKAlogo img {float: left;
 	box-shadow: none;
@@ -49,15 +50,16 @@ header {background-color: #d0d8db;
 	background-color: #aae2f2;
 	opacity: .8;
 	height: 84px;
-	padding-bottom: 5px;}
+	padding-bottom: 5px;
+	margin: auto;}
 	
 .toph1 h1 {padding-top: 15px;
 			font-family: 'Montserrat', sans-serif;}	
 			
 #heroimage {background-image: url("massagebedcopy.png");
 			background-repeat: no-repeat;
-			width: auto;
-			height: 450px;} 
+			max-width: 100%;
+			min-height: 450px;} 
 							
 #herocontent1 {width: 250px;
 	padding-left: 25px;
@@ -73,10 +75,9 @@ header {background-color: #d0d8db;
 	padding-left= 20px;
 	color: #ffffff;}	
 
-#herocontent2 {width: 600px;
+#herocontent2 {max-width: 600px;
 	font-size: 1.2em;
-	margin-left: auto;
-	margin-right: auto;}
+	margin: auto;}
 	
 #herocontent2 h2 {text-align: center;
 	padding-top: 50px;
@@ -88,16 +89,29 @@ header {background-color: #d0d8db;
 	
 #bubbles {background-image: url("bubbles.png");
 		background-repeat: no-repeat;
-		height: 400px;
-		width: 100%vw;}
+		min-height: 400px;
+		max-width: 100%;
+		margin: auto;}
 
-#bubblescontent {width: 100%;
+#bubblescontent {max-width: 100%;
 	text-align: center;
 	font-size: 1.4em;
 	padding-top: 130px;
 	color: #ffffff;
-	margin-left: auto;
-	margin-right: auto;}
+	margin: auto;}
+	
+@media only screen and (max-width: 700px) {
+				.toph1 {width: 49.99999%;
+				margin: 6px 0;}
+}
+
+@media only screen and (max-width: 500px) {
+				.toph1 {width: 100%;}
+				
+.clearfix:after {content:"";
+				display: table;
+				clear: both;}				
+	
 	
 footer {background-color: #d0d8db;
 	background-image: url("testsmmbednavcopy.png");
@@ -134,25 +148,29 @@ footer {background-color: #d0d8db;
 	
 /* About page */ 	
 
-#kevcollage {background-image: url("reskevcollage.png");
-			background-repeat: no-repeat;
-			width: auto;
-			height: 250px;
-			margin-left: auto;
-			margin-right: auto;}
+#kevcollage img {
+			min-width: 300px;
+			min-height: 300px;
+			float: left;
+			margin: auto;}
 			
 #aboutme {min-width: 600px;
 	font-size: 1.2em;
-	margin-left: 270px;
-	margin-top: 70px;}
+	margin: auto;
+	padding-left: 250px;
+	padding-bottom: 30px;
+	padding-top: 30px;}
 
 #aboutme h2 {text-align: center;
 	color: #327799;
-	margin-left: 10px;
-	margin-top: 50px;}
+	margin: auto;
+	padding-left: 100px;
+	padding-top: 30px;}
+	
 	
 #aboutme p {text-align: left;
-padding-left: 100px;}	
+padding-left: 100px;
+max-width: auto;}	
 
 #aboutme2 p {text-align: left;
 background-color: #327799;
@@ -200,7 +218,8 @@ text-align: center;
   width: 100px;
   border: none;
   background-color: #21b2bf;
-  font-size: 1em;}	
+  font-size: 1em;
+  margin: 0;}	
 	
 
 .svsbutton a {text-decoration: none;
@@ -224,39 +243,42 @@ text-align: center;
 	/* Contact page */
 
 
-#contactpic {background-image: url("massage2copy.png");
-			background-repeat: no-repeat;
-			min-width: 100%vw;
+#contactpic img {
+			max-width: 100%;
 			opacity: .4;
-			height: 350px;} 
+			min-height: 100px;
+			margin: auto;} 
 
-#contactpiccontent {padding-top: 280px;
-		padding-left: 90px;
+#contactpiccontent {
 		font-size: 1.2em;}
 		
-#contactpiccontent p {color: #1d496e;}	
 
 #cicontent {width: 35%;
   			float: left;
   			padding-right: 15px;
   			background-color:#e8f4fa;
-  			
-  			height: 625px;}
+  			min-height: 625px;
+  			margin: auto;}
   
 #cicontent h3 {padding-top: 50px;
-			padding-left: 100px;
-			color:#1d496e;}
+			padding-left: 50px;
+			padding-bottom: 10px;
+			color:#1d496e;
+			margin: auto;}
   
-#cicontent p {padding-left: 100px;} 
+#cicontent p {padding-left: 050px;
+			margin: auto;} 
 
 #cicontent2 {width: 55%;
   			float: left;
-  			padding-right: 15px;}
+  			padding-right: 15px;
+  			margin: auto;}
   
 #cicontent2 h3 {padding-top: 35px;
 			padding-left: 100px;
 			color:#1d496e;
-			text-align: center;}
+			text-align: center;
+			margin: auto;}
 			
 #cicontent2 button {width: 120px;
 text-align: center;
@@ -270,20 +292,21 @@ span {padding-left: 10px;}
 
 form {display: flex;
        flex-direction: column;
-	   width: 80%;
-	   max-width: 40em;
-	   padding-left: 190px;}
+	   min-width: 80%;
+	   
+	   padding-left: 30px;
+	   margin: auto;}
 	   
 form label {color:#1d496e;}
 
-textarea {margin-left: 10px;}	   
+#cicontent2 textarea {float: left;
+	margin-top: 10px;}	   
 	   
-input, textbox {margin-bottom: 2em;
-			margin-left: 10px;
+input, textbox {padding: 10px;
 			background-color:#e8f4fa;
 			border: none;
-			height: 30px;
-			padding-left: 5px;}
+			min-height:30px;
+			margin-bottom: 30px;}
 
 input[type="Send Message"] {color:#1d496e;
 							text-align: center;}
@@ -315,45 +338,52 @@ color: #707070;}
 #bncontent h3 {padding-top: 30px;;
 			color:#1d496e;
 			text-align: left;
-			padding-left: 60px;}  
+			padding-left: 30px;
+			margin: auto;}  
 			
 #bncontent2 {padding-top: 40px;
-			width: 50%;
+			min-width: 50%;
   			float: left;
   			padding-right: 15px;
   			background-image: url("bnmassage.png");
   			background-repeat: no-repeat;
   			height: 720px;
-  			text-align: center;}
+  			text-align: center;
+  			margin: 0;}
   
 #bncontent2 label {padding-top: 30px;
 			padding-bottom: 10px;
 			color:#ffffff;
 			text-align: left;
-			font-weight: bold;}  
+			font-weight: bold;
+			margin: 0;}  
 
 #bncontent2 textarea {float: left;
 padding-left: 10px;
 padding-top: 5px;
-margin-bottom: 10px;}
+padding-bottom: 40px;
+margin-bottom: 10px;
+max-width: 100%;}
 			
 #button {text-align: center;
-	width: 90px;
-	background-color: #ff0000;
+	background-color:  #e8f4fa;
 	height:30px;
-	margin-left: 10px;
-	font-size: 1em;}
-		
+	font-size: 1em;
+	width: 120px;
+	margin: auto;}
+	
+
 #bncontent2 a {padding-top: 6px;
 				text-decoration: none;
-				color: #ffffff;}	
+				color: #707070;}	
 
 		
 #bncontent3 {width: 25%;
   			float: left;
   			background-color:#e8f4fa;
   			height: 720px;
-  			background-image: url("newbubs.png");}
+  			background-image: url("newbubs.png");
+  			margin: auto;}
   			
 .clearfix2:after {content:"";
 	display: table;
