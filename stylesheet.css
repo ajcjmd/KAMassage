@@ -28,7 +28,7 @@ header {background-color: #d0d8db;
 	padding-bottom: 50px;
 	padding: 20px;
 	text-decoration: none;
-	color: #327799;}
+	color: #754e23;}
 
 .topnav  li {display: inline-block;
 	font-size: .8em;
@@ -67,13 +67,11 @@ header {background-color: #d0d8db;
 	font-size: .8em;}
 	
 #herocontent1 h2 {text-align: left;
-	padding-top= 20px;
-	color: #ffffff;}	
+	padding-top: 10px;
+	color: #b07635;}	
 	
 #herocontent1 p {text-align: left;
-	padding-top= 20px;
-	padding-left= 20px;
-	color: #ffffff;}	
+	color: #b07635;}	
 
 #herocontent2 {max-width: 600px;
 	font-size: 1.2em;
@@ -84,7 +82,7 @@ header {background-color: #d0d8db;
 	color: #327799;}	
 	
 #herocontent2 p {text-align: left;
-	margin auto;}	
+	margin: auto;}	
 	
 #bubbles {background-image: url("bubbles.png");
 		background-repeat: no-repeat;
@@ -155,7 +153,7 @@ footer {background-color: #d0d8db;
 	
 #aboutme p {text-align: left;
 padding-left: 100px;
-max-width: auto;}	
+width: auto;}	
 
 #aboutme2 p {text-align: left;
 background-color: #327799;
@@ -179,9 +177,9 @@ text-align: center;
 	float: left;
 	width: 33.3333%;}	
 	
-.gallery {border: non;
+.gallery {border: none;
 		padding: 10px;
-		margin; auto;}
+		margin: auto;}
  	
  
 .gallery img {width: 100%;
@@ -189,7 +187,7 @@ text-align: center;
 		padding-bottom: 20px;
 		margin: 0;} 	
  	
-.desc {padding: 10px, 20px;
+.desc {padding: 10px 20px;
 	margin-bottom: 30px;
 	text-align: center;
 	color: #1d496e;}
@@ -233,10 +231,7 @@ text-align: center;
 			min-height: 100px;
 			margin: auto;} 
 
-#contactpiccontent {
-		font-size: 1.2em;}
 		
-
 #cicontent {width: 35%;
   			float: left;
   			padding-right: 15px;
@@ -304,7 +299,6 @@ margin-left: 10px;
 background-color: #e8f4fa;
 font-size: 1em;
 padding-top: 6px;
-font-weight: strong;
 margin-bottom: 20px;}	
 	
 #cbutton a {
@@ -318,7 +312,8 @@ color: #707070;}
   			background-color:#e8f4fa;
   			height: 720px;
   			background-image: url("newbubs.png");
-  			margin: auto;}
+  			margin: auto;
+  			padding-left: 20px;}
   
 #bncontent h3 {padding-top: 30px;;
 			color:#1d496e;
@@ -326,7 +321,7 @@ color: #707070;}
 			padding-left: 30px;
 			margin: auto;}  
 			
-#bncontent2 {padding-top: 40px;
+#bncontent2 {padding-top: 10px;
 			min-width: 50%;
   			float: left;
   			padding-right: 15px;
@@ -334,7 +329,8 @@ color: #707070;}
   			background-repeat: no-repeat;
   			height: 720px;
   			text-align: center;
-  			margin: 0;}
+  			margin: 0;
+  			padding-left: 20px;}
   
 #bncontent2 label {padding-top: 30px;
 			padding-bottom: 10px;
@@ -351,7 +347,7 @@ margin-bottom: 10px;
 max-width: 100%;}
 	
 		
-#button {
+#button1 {
 	background-color:  #e8f4fa;
 	height:30px;
 	font-size: 1em;
