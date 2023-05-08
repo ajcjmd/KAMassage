@@ -64,17 +64,24 @@ header {background-color: #d0d8db;
 #herocontent1 {width: 250px;
 	padding-left: 25px;
 	padding-top: 165px;
-	font-size: .8em;
-	background-color: #ffffff;}
+	font-size: .8em;}
 	
 #herocontent1 h2 {
 	color: #754e23;
-	}	
+	background-color: #ffffff;
+	border-radius bottom: 10px;
+	opacity: .8;
+	margin: auto;
+	padding: 10px;}	
 	
 #herocontent1 p {text-align: left;
 	color: #754e23;
 	font-size: 1.2em;
-	}	
+	background-color: #ffffff;
+	
+	margin: auto;
+	opacity: .8;
+	padding: 10px;}	
 
 #herocontent2 {max-width: 600px;
 	font-size: 1.2em;
